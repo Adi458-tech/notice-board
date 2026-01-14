@@ -376,3 +376,68 @@ footer a:hover {
     font-size: 1.05rem;
     line-height: 1.6;
 }
+
+
+/* ===== Exams Page Styles ===== */
+
+.exams-section {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow:
+        0 10px 40px rgba(0,0,0,0.08),
+        0 4px 15px rgba(0,0,0,0.06);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.exams-section h2 {
+    font-size: 2.4rem;
+    color: #0f3460;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.exam-card {
+    background: #f8fafc;
+    padding: 2rem;
+    border-left: 6px solid #dc2626;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.exam-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.exam-card h3 {
+    font-size: 1.5rem;
+    color: #7f1d1d;
+    margin-bottom: 0.8rem;
+}
+
+.exam-card p {
+    color: #475569;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+}
+
+.exam-card ul {
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.exam-card li {
+    color: #334155;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.exam-date {
+    font-size: 0.95rem;
+    color: #334155;
+    margin-top: 0.5rem;
+}
